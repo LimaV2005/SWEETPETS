@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@300&family=Montserrat:wght@200&display=swap');
+@font-face {
+  font-family: Gooper;
+  src: url(fontes/Gooper-Black.ttf);
+}
+@font-face {
+  font-family: GooperItalic;
+  src: url(fontes/Gooper-RegularItalic.ttf);
+}
+@font-face {
+  font-family: GooperSemi;
+  src: url(fontes/Gooper-SemiBold.ttf);
+}
+body{
+  background-color: #ffffff;
+}
+.list {
+  text-decoration: none;
+  height: 60px;
+  display: flex;
+  gap: 60%;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  opacity: 90%;
+  color: rgb(234, 234, 234);
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+.container {
+  margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin-top: 60px;
+  width: 74%; 
+  border-collapse: collapse;
+}
+th{
+  border-bottom: 1px solid #182442;
+}
+
+th, td {
+  border: q;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+}
+
+th {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+tr{
+  background-color: white;
+  font-size: 1px;
+}
+tr:nth-child(even) {
+  background-color: #ecd3d3;
+}
+ul {
+  list-style: none;
+}
+
+#removeBtn {
+  opacity: 70%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: .6s;
+}
+
+button#removeBtn:hover {
+  background-color: rgb(211, 61, 61);
+  opacity: 100%;
+}
+
+#back{
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+  transition: .5s;
+}
+#back:hover{
+  background-color: #182442;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  
+  body {
+    overflow-x: hidden;
+  }
+
+ 
+  table {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  
+  td {
+    display: block;
+    margin: 10px 0;
+  }
+
+
+  td:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+  
+  th {
+    display: block;
+    background-color: #333;
+    color: white;
+  }
+}
