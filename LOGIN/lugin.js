@@ -172,7 +172,7 @@ function logar() {
 
     if (user) {
         // MOSTRANDO MENSAGEM DE BEM VINDO
-        document.querySelector('.nomeShow').innerHTML = `<h1 >Sinta-se em casa,</h1> <h1 id="nome">${user.Usuario}</h1><h1>!</h1>`;
+        document.querySelector('.nomeShow').innerHTML = `<h1 >Sinta-se em casa,</h1> <h1 id="nome">${user.Usuario}"!</h1>`;
         document.querySelector('#signin').style.display = "none"
         document.querySelector('.c-loader').style.display = "block"
         document.querySelector('#p1').style.display = "none"
