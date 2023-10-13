@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@300&family=Montserrat:wght@200&display=swap');
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: 'Acme', sans-serif;
+}
+label{
+    font-family: 'Acme', sans-serif;
+}
+#coração{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+
+}
+#cadastro{
+    display: flex;
+
+    flex-direction: column;
+    gap: 0.9rem;
+    margin: 21px auto;
+    width: 40%;
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 56%;
+    padding: 30px;
+
+    
+}
+#nome, #espécies, #Sexo, #idade, #porte, #estado, #cidade, #foto{
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #00000067;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 7px;
+    height: 100%;
+}
+#sobre{
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #00000067;
+    background-color: #ffffff;
+    padding: 7px;
+    font-family: 'Montserrat', sans-serif;
+}
+#espécies, #Sexo{
+    width: 35%;
+    
+}
+#idade, #porte{
+
+    width: 35%;
+}
+#estado, #cidade{
+    width: 35%;
+}
+#cad-animal{
+    border: none;
+    color: #ffffff;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+}
+#cad-animal:hover{
+    background-color: rgb(36, 36, 36);
+    transition: 0.3s;
+}
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+}
+.form-image img{
+    width: 45rem;
+    overflow: hidden;
+
+}
+
+
+

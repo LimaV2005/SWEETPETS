@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <!-- Montserrat -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Acme&amp;family=Lato:wght@300&amp;family=Montserrat:wght@200&amp;display=swap">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&amp;display=swap" >
+
+    <!-- Acma -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Acme&amp;family=Montserrat:wght@200;300&amp;display=swap"
+        >
+
+    <!-- -------------------- -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Sweet Pets </title>
+
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                
+                <li class='logo'><a href='#'><img src='/img/Logo Cute Pets 3.png' alt="" /></a></li>
+
+            <span class="menu">
+                    
+                <li class="nav-item"><a href="/html/menu.html">Home</a></li>
+                <li class="nav-item"><a href="/html/index.html">Produtos</a></li>
+                <li class="nav-item"><a href="/html/produtos.html">Adoção</a></li>
+                <li class="nav-item"><a href="">Sobre</a></li>
+                <li class="nav-item"><a href="/html/Contato.html">Contato</a></li>
+
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+
+            </span>
+
+                <div class="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    
+<!-- filtrar produtos  -->
+
+            <div class="filter-butao">
+               
+                <button type="button" class="active" data-filter="tudo">| Tudo |</button>
+                <button type="button" data-filter="Remédios">Remédios<i class="fas fa-briefcase-medical"></i></button>
+                <button type="button" data-filter="Ração">Rações<i class="fas fa-dog"></i></button>
+                <button type="button" data-filter="Acessórios">Acessórios <i class="fas fa-bone"></i></button>
+                <button type="button" data-filter="Brinquedos">Brinquedos <i class="fas fa-heart"></i></button>
+
+            </div>
+
+
+
+
+<!-- filtrar produtos  -->
+
+<section class="container"> <!-- Início section --> <!-- Container de produtos -->
+        
+<div class="container-items"> <!-- Início container-items -->
+    
+    <div data-prod="Acessórios">
+        
+        <div class="item">
+
+            <img src="/img/product-1-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Caminha Pet </span>
+            <span class="preço-item">R$35,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Acessórios">
+
+        <div class="item">
+
+            <img src="/img/product-2-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Caminha Rosa</span>
+            <span class="preço-item">R$25,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Acessórios">
+                
+        <div class="item">
+
+            <img src="/img/product-4-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Caminha Vermelha</span>
+            <span class="preço-item">R$65,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Acessórios">
+
+        <div class="item">
+
+            <img src="/img/product-3-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Caminha preta</span>
+            <span class="preço-item">R$95,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Brinquedos">
+
+        <div class="item">
+
+            <img src="/img/product-5-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Casinha</span>
+            <span class="preço-item">R$112,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+            
+    <div data-prod="Brinquedos">
+
+        <div class="item">
+
+            <img src="/img/product-6-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Peninha</span>
+            <span class="preço-item">R$18,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Brinquedos">
+
+        <div class="item">
+
+            <img src="/img/product-7-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Cobrinha</span>
+            <span class="preço-item">R$24,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Brinquedos">
+
+        <div class="item">
+
+            <img src="/img/product-9-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Bolinha</span>
+            <span class="preço-item">R$9,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Acessórios">
+
+        <div class="item">
+
+            <img src="/img/product-11-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Sir Orange</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Acessórios">
+
+        <div class="item">
+
+            <img src="/img/product-12-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Sir Black</span>
+            <span class="preço-item">R$18,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Acessórios">
+
+        <div class="item">
+
+            <img src="/img/product-13-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Sir Blue</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Acessórios">
+
+        <div class="item">
+
+            <img src="/img/product-14-300x300.jpg" alt="" class="img-item">
+            <span class="titulo-item">Sir Pink</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Remédios">
+
+        <div class="item">
+
+            <img src="/img/remedio1.jpg" alt="" class="img-item">
+            <span class="titulo-item">Bravecto KIT</span>
+            <span class="preço-item">R$42,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Remédios">
+
+        <div class="item">
+
+            <img src="/img/remedio2.jpg" alt="" class="img-item">
+            <span class="titulo-item">Bravecto</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div class="prod Remédios">
+
+        <div class="item">
+
+            <img src="/img/remedio3.jpg" alt="" class="img-item">
+            <span class="titulo-item">Vermex plus</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Remédios">
+
+        <div class="item">
+
+            <img src="/img/remedio4.jpeg" alt="" class="img-item">
+            <span class="titulo-item">Natu Verm</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Remédios">
+
+        <div class="item">
+
+            <img src="/img/remedio5.jpeg" alt="" class="img-item">
+            <span class="titulo-item">Chemital Puppy</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Remédios">
+
+        <div class="item">
+
+            <img src="/img/remedio6.jpg" alt="" class="img-item">
+            <span class="titulo-item">Drontal</span>
+            <span class="preço-item">R$13,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Remédios">
+
+        <div class="item">
+
+            <img src="/img/remedio7.jpeg" alt="" class="img-item">
+            <span class="titulo-item">Advocate</span>
+            <span class="preço-item">R$14,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Remédios">
+
+        <div class="item">
+
+            <img src="/img/remedio8.jpg" alt="" class="img-item">
+            <span class="titulo-item">Chemital Kitty</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+    <div data-prod="Ração">
+
+        <div class="item">
+
+            <img src="/img/raçao1.jpg" alt="" class="img-item">
+            <span class="titulo-item">Pedigree</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+    <div data-prod="Ração">
+
+        <div class="item">
+
+            <img src="/img/raçao2.jpg" alt="" class="img-item">
+            <span class="titulo-item">Dog Chow</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+
+    <div data-prod="Ração">
+
+        <div class="item">
+
+            <img src="/img/raçao3.jpg" alt="" class="img-item">
+            <span class="titulo-item">Speciale</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+    <div data-prod="Ração">
+
+        <div class="item">
+
+            <img src="/img/raçao4.jpeg" alt="" class="img-item">
+            <span class="titulo-item">Pratic Doggy</span>
+            <span class="preço-item">R$12,00</span>
+            <button class="boton-item">Adicionar ao carrinho</button>
+
+        </div>
+
+    </div>
+</div> <!-- fim container-items -->
+
+
+<div class="carrinho" id="carrinho"> <!-- Início carrinho --> <!-- Carrinho de Compras -->
+
+    <div class="header-carrinho">
+        <h2>Carrinho</h2>
+    </div>
+
+    <div class="carrinho-items">
+        <!-- local que coloca os produto -->
+    </div>
+            
+    <div class="carrinho-total">
+
+        <div class="fila">
+
+            <strong>Total</strong>
+            <span class="carrinho-preço-total">R$120.000,00</span>
+
+        </div>
+
+        <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+
+    </div>
+
+</div> <!-- fim carrinho -->
+
+</section> <!-- fim section -->
+
+
+<footer class="footer"> <!-- Início footer -->
+
+    <div class="containeer"> <!-- Início containeer -->
+
+        <div class="row"> <!-- Início row -->
+
+            <div class="footer-col">
+
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Nossos serviços</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h4>Ajuda & Suporte</h4>
+                <ul>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Rastrear Pedido</a></li>
+                    <li><a href="#">Dúvidas Frequentes</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h4>Categorias</h4>
+                <ul>
+                    <li><a href="#">Rações</a></li>
+                    <li><a href="#">Medicamentos</a></li>
+                    <li><a href="#">Comedouros</a></li>
+                    <li><a href="#">Caminhas</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h4>Siga-nos</h4>
+
+                <div class="social-links">
+
+                    <a href="https://www.facebook.com/sweetpets24h/?locale=pt_BR"> 
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+                    
+                        <path d="M32,6C17.642,6,6,17.642,6,32c0,13.035,9.603,23.799,22.113,25.679V38.89H21.68v-6.834h6.433v-4.548 
+                        c0-7.529,3.668-10.833,9.926-10.833c2.996,0,4.583,0.223,5.332,0.323v5.965h-4.268c-2.656,0-3.584,2.52-3.584,5.358v3.735h7.785 
+                       l-1.055,6.834h-6.73v18.843C48.209,56.013,58,45.163,58,32C58,17.642,46.359,6,32,6z">
+                       </path> </svg>
+
+                    </a>
+
+                    <a href="https://www.instagram.com/sweetpetsdf/">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+
+                        <path d="M 21.580078 7 C 13.541078 7 7 13.544938 7 21.585938 L 7 42.417969 C 7 50.457969 13.544938 57
+                        21.585938 57 L 42.417969 57 C 50.457969 57 57 50.455062 57 42.414062 L 57 21.580078 C 57 13.541078 50.455062 
+                        7 42.414062 7 L 21.580078 7 z M 47 15 C 48.104 15 49 15.896 49 17 C 49 18.104 48.104 19 47 19 C 45.896 19 45 
+                        18.104 45 17 C 45 15.896 45.896 15 47 15 z M 32 19 C 39.17 19 45 24.83 45 32 C 45 39.17 39.169 45 32 45 C 24.83 
+                        45 19 39.169 19 32 C 19 24.831 24.83 19 32 19 z M 32 23 C 27.029 23 23 27.029 23 32 C 23 36.971 27.029 41 32 41 C 
+                        36.971 41 41 36.971 41 32 C 41 27.029 36.971 23 32 23 z">
+                        </path> </svg>
+                    </a>
+
+
+                </div>
+
+            </div>
+
+        </div> <!-- fim row -->
+
+    </div> <!-- fim containeer -->
+        
+</footer> <!-- fim footer -->
+            
+<script src="/js/app.js" async></script>
+</body>
+</html>
